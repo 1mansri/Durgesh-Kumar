@@ -1,0 +1,38 @@
+ .gradient-background {
+    background: linear-gradient(300deg, #d20007,  #0452fa, #15ea06);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+  .student1 {
+    font-family: 'Oswald', sans-serif !important;
+    font-size: medium;
+  }
+
+  .profile-img1 {
+    height: 100px;
+    border-radius: 50%;
+  }
+  .profile-img {
+    border-radius: 50%;
+  }
+  .contact-button {
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: white ;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
