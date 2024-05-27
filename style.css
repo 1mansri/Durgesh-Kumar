@@ -1,5 +1,5 @@
  .gradient-background {
-    background: linear-gradient(300deg, #d20007,  #0452fa, #15ea06);
+    background: linear-gradient(300deg, #D9D9D9, #A6A6A6);
     background-size: 180% 180%;
     animation: gradient-animation 18s ease infinite;
   }
@@ -30,7 +30,7 @@
   .contact-button {
     border-radius: 8px;
     font-family: "Montserrat", sans-serif;
-    color: white ;
+    color: #D9D9D9 ;
     font-size: 15px;
     font-weight: bold;
     padding: 10px 20px 10px 20px;
